@@ -1,0 +1,59 @@
+@import "./navbar";
+@import "./preloader";
+@import "./blog";
+@import "./header";
+@import "./portfolio";
+@import "./contact";
+@import "./fonts";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  position: relative;
+
+
+}
+.c-scrollbar_thumb {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gallery Modern", sans-serif;
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+p,
+li,
+a,
+span {
+  font-family: "Helvetica Neue";
+}
+
+// UTILITY CLASSES
+
+.section {
+  padding: 40px 30px;
+  width: 100%;
+  position: relative;
+
+}
+
+.max-w-container {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.chapter span {
+  opacity: 0.4;
+}

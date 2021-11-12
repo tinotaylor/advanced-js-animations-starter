@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Gallery Modern";
+    src: url("/fonts/GalleryModernRegular.woff2") format("woff2"),
+      url("/fonts/GalleryModernRegular.woff") format("woff"),
+      url("/fonts/GalleryModernRegular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Helvetica Neue";
+    src: url("/fonts/HelveticaNeue-Roman.woff2") format("woff2"),
+      url("/fonts/HelveticaNeue-Roman.woff") format("woff"),
+      url("/fonts/HelveticaNeue-Roman.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
